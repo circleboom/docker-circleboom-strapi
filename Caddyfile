@@ -2,7 +2,7 @@
 # To do that, just replace :80 in your .env file with your domain name to get automatic https via LetsEncrypt.
 # Don't forget to set your DNS first as Caddy will automatically validate 
 # and create certificates for you as soon as it started.
-# graph.myawesomedomain.com {
+# strapi.myawesomedomain.com {
 #   reverse_proxy strapi:1337
 # }
 
