@@ -9,7 +9,7 @@ services:
       DATABASE_PORT: ${POSTGRES_SERVER_PORT}
       DATABASE_USERNAME: ${POSTGRES_USER}
       DATABASE_PASSWORD: ${POSTGRES_PASSWORD}
-      DATABASE_SSL: true
+      DATABASE_SSL: 'true'
     volumes:
       - ./app:/srv/app
     ports:
