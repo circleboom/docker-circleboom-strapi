@@ -2,6 +2,7 @@ version: '3.6'
 services:
   strapi:
     image: strapi/strapi
+    restart: always
     environment:
       DATABASE_CLIENT: postgres
       DATABASE_NAME: ${POSTGRES_TARGET_DB}
